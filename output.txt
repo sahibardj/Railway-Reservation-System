@@ -1,0 +1,214 @@
+hi i am 1st process 12845, i open 1.txt
+hi i am 2nd process 12846, i open 2.txt
+hi i am 3rd process 12847, i open I am parent process 12843
+	hi there 791621423
+hi i am 4st process 12848, i open SHELL=/bin/bash
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 2
+i'm waiting for g sema 2
+writer out.
+inser release write
+will relase gsema
+release gsema 2
+cancel
+writer in 0
+i'm waiting for g sema 0
+writer out.
+before delete
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+reserve
+writer in 0
+writer in 1
+i'm waiting for g sema 0
+i'm waiting for g sema 1
+writer out.
+inser release write
+will relase gsema
+release gsema 1
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+reserve
+i'm waiting for g sema 0
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+reserve
+writer in 1
+writer in 0
+i'm waiting for g sema 1
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 1
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+cancel
+reserve
+writer in 1
+writer in 0
+i'm waiting for g sema 1
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+writer out.
+before delete
+inser release write
+will relase gsema
+release gsema 1
+reserve
+reserve
+writer in 0
+writer in 0
+i'm waiting for g sema 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+reserve
+writer in 0
+writer in 1
+i'm waiting for g sema 0
+i'm waiting for g sema 1
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 1
+reserve
+	hi there 2
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+reserve
+writer in 0
+i'm waiting for g sema 0
+writer out.
+inser release write
+will relase gsema
+release gsema 0
+cancel
+writer in 5
+i'm waiting for g sema 5
+writer out.
+before delete
+inser release write
+will relase gsema
+release gsema 5
+reserve
+writer in 1
+i'm waiting for g sema 1
+writer out.
+inser release write
+will relase gsema
+release gsema 1
+cancel
+writer in 1
+i'm waiting for g sema 1
+writer out.
+before delete
+inser release write
+will relase gsema
+release gsema 1
+	hi there 1
