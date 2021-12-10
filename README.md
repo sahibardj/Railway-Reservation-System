@@ -47,37 +47,6 @@ RUNNING COMMAND & SYSTEM:
  operating system : linux (ubuntu)
   input : input file name as command line argument. (eg. ./a.out in1.txt in2.txt in3.txt in4.txt)
 
-HEADER FILES USED:
-#include<iostream>
-#include<fstream>
-#include<unistd.h>
-#include<sys/wait.h>
-#include <sys/types.h>
-#include <sys/ipc.h>
-#include <sys/sem.h> // Semaphore
-#include <sys/shm.h> // Share memory
-#include<string.h>
-
-STRUCTURE FOR RESERVATION CREATION:
-struct Reservation{ // Reservation *ptr
-    int pnr;
-    char p_name[20], age[3], sex; //string name;
-    char rClass[4];// AC2, AC3, or SC
-    flag status; // 1 -- >waitlisted or 0 --> confirmed, 2 --> cancelled
-};
-STRUCTURE FOR TRAIN:
-struct Train{
-    int train_id;
-    int AC2, AC3, SC;// No. of available berths
-    int curr; // 4
-    Reservation rlist[MAX]; // ac2_, ac3, _SC, _ //10 *1000
-    void getEmptyReservationList(){
-        for(int i = 0; i < MAX; i++){
-            rlist[i] = *(new Reservation());
-        }
-    }
-}; 
-
 Conclusion
 
 
